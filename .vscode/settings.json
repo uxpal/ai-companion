@@ -1,0 +1,47 @@
+{
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": true
+    },
+    "editor.formatOnSave": false,
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "typescriptreact"
+    ],
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx",
+            ".md",
+            ".mdx"
+        ]
+    },
+    "cSpell.words": [
+        "Honu",
+        "Omnichannel"
+    ],
+    "workbench.colorCustomizations": {
+        "sideBarSectionHeader.background": "#e906c3"
+    },
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/firebase-hosting-pull-request.yml"
+    ],
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "javascript",
+        "typescriptreact"
+  ]
+}
