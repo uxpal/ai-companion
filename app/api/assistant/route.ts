@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server";
 
-import { currentUser } from "@clerk/nextjs";
-
 import OpenAI from "openai";
 
 export async function POST(request: Request) {
@@ -63,7 +61,8 @@ export async function POST(request: Request) {
     console.log(
       "------------------------------------------------------------ \n",
     );
-
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //@ts-ignore
     console.log("User: ", threadMessages.content[0].text.value);
     console.log("Assistant: ", allMessages.data);
     return allMessages.data;
