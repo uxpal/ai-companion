@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "review-dependencies": "ncu",
-    "update-dependencies": "ncu -u"
+    "update-dependencies": "ncu -u",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.27.2",
